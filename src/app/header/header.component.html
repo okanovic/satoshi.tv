@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="p-5 rounded-3" style="background-color: #FFF9D3;">
+        <div class="row">
+            <div class="col-lg-6 text-center p-2">
+                <img src="./assets/images/stoshi-white-logo.png" alt="">
+            </div>
+            <div class="col-lg-6 text-center p-2" style="text-align: -webkit-center !important;">
+                <div class="d-flex slogan">
+                    <small class="text-white font-weight-bold mr-1">
+                        <span *ngIf="userInfo.name == ''"> {{ 'Bitcoin ve Kriptoparalar Hakkında Herşey Bir Arada'}}</span>
+                        <span *ngIf="userInfo.name != ''"> Merhaba {{ userInfo.name }} {{userInfo?.surname}}</span>
+                    </small>
+                    <img src="./assets/images/stoshi-colorful-logo-without-text.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-5">
+            <div class="row justify-content-center">
+                <h3 class="display-6 fw-bold text-center text-white" style="text-shadow: 2px 2px 2px rgba(0,0,0,0.50);" translate>{{"Header.NewGeneration"}}</h3>
+                <h2 class="display-5 fw-bold text-center" style="color: #FD8D2D;" translate>{{"Header.DigitalTv"}}</h2>
+                <p class="col-md-6 fs-6 text-center text-dark" translate>{{"Header.HeaderInfo"}}</p>
+                <div class="row justify-content-center">
+                    <a href="https://www.youtube.com/channel/UC5vDhZ-4fU4wlOymSg63P9Q" class="col-md-6 align-self-center btn btn-primary btn-md text-center visit-channel" target="_blank" translate>{{"Header.VisitChannel"}}</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center btn-group-sm translate-butons">
+            <div class="btn-group" role="group">
+                <a name="" id="" class="btn btn-sm" [ngClass]="{'border': currentLanguage == 'tr' ? '1px solid blue' : ''}" href="#" role="button" (click)="changeLang('tr')"><img src="./assets/images/turkey-flag-icon.png" alt=""> TR</a>
+                <a name="" id="" class="btn btn-sm" [ngClass]="{'border': currentLanguage == 'en' || currentLanguage == 'en-US' ? '1px solid blue' : ''}" href="#" role="button" (click)="changeLang('en')"><img src="./assets/images/uk-flag-icon.png" alt=""> EN</a>
+            </div>
+        </div>
+    </div>
+</div>

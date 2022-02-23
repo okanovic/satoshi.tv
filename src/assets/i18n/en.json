@@ -1,0 +1,30 @@
+{
+    "Header":{
+        "NewGeneration":"New Generation",
+        "DigitalTv":"Digital Television",
+        "HeaderInfo":"A new generation experience is with you with information about Bitcoin and cryptocurrencies, Educational and entertaining content, Contests, Crypto Art Satoshi TV",
+        "VisitChannel":"Visit Channel"
+    },
+    "Content":{
+        "Text1":"Changing and transforming Satoshi TV with its brand new name, logo and contents is on the air!",
+        "Text2":"A wide range of topics become educational and entertaining with the presentation of experts in their fields.",
+        "Text3":"BtcTurk YouTube channel continues to broadcast under the name of Satoshi TV with its rich content on the axis of Bitcoin and cryptocurrencies, by not leaving the philosophy that constitutes the starting point of Bitcoin.",
+        "Text4":"It's not just a YouTube channel, it accompanies your day with its original content.",
+        "Text5":"Satoshi TV also sends thanks and greetings to Satoshi Nakamoto as it is being renewed",
+        "WatchNow":"Watch Now"
+    },
+    "Footer":{
+        "FollowUs":"Follow Us",
+        "CompanyName":"2021 Company, Inc"
+    },
+    "Modal":{
+        "Title":"Create User",
+        "Name":"Name",
+        "Surname":"Surname",
+        "EMail":"Email",
+        "SendButton":"Send",
+        "RejectButton":"Cancel",
+        "SuccessMessage":"Registration added successfully",
+        "ErrorMessage":"We encountered an error while saving"
+    }
+}

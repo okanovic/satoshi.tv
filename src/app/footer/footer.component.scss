@@ -1,0 +1,28 @@
+$orange-color: #fd8d2d;
+footer {
+    .container {
+        background-color: #182c34;
+        max-height: 230px;
+        h5 {
+            color: $orange-color;
+        }
+        .nav-item {
+            cursor: pointer;
+            -webkit-transition: -webkit-transform 0.8s ease-in-out;
+            -ms-transition: -ms-transform 0.8s ease-in-out;
+            transition: transform 0.5s ease-in-out;
+            &:hover {
+                transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+            }
+            .fa-stack {
+                color: $orange-color;
+            }
+        }
+    }
+    p {
+        background-color: #13252c;
+        color: $orange-color;
+    }
+}

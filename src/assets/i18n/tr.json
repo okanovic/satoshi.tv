@@ -1,0 +1,30 @@
+{
+    "Header":{
+        "NewGeneration":"Yeni Nesil",
+        "DigitalTv":"Dijital Televizyon",
+        "HeaderInfo":"Bitcoin ve kriptoparalar hakkında bilgiler, Eğitici ve eğlenceli içerikler, Yarışmalar, Kripto Sanat Satoshi TV ile yeni nesil bir deneyim sizlerle",
+        "VisitChannel":"Kanalı Ziyaret Et"
+    },
+    "Content":{
+        "Text1":"Yepyeni ismi, logosu ve içerikleri ile değişen, dönüşen Satoshi TV yayında!",
+        "Text2":"Geniş yelpazede konular, alanında uzman kişilerin sunumuyla eğitici ve eğlenceli bir hal alıyor",
+        "Text3":"BtcTurk YouTube kanalı Bitcoin’in çıkış noktasını oluşturan felsefeden ayrılmayarak Bitcoin ve kriptopara ekseninde zengin içerikleriyle Satoshi TV adı altında yayına devam ediyor",
+        "Text4":"Yalnızca bir YouTube kanalı değil orijinal içerikleriyle gününüze eşlikçi oluyor",
+        "Text5":"Satoshi TV yenilenirken Satoshi Nakamoto’ya da teşekkür ve selam gönderiyor",
+        "WatchNow":"Şimdi İzle"
+    },
+    "Footer":{
+        "FollowUs":"Bizi Takip Edin",
+        "CompanyName":"2021 Company, Inc"
+    },
+    "Modal":{
+        "Title":"Kullanıcı Oluştur",
+        "Name":"Adınız",
+        "Surname":"Soyadınız",
+        "EMail":"Email Adresiniz",
+        "SendButton":"Gönder",
+        "RejectButton":"İptal",
+        "SuccessMessage":"Kayıt başarıyla eklendi",
+        "ErrorMessage":"Kaydederken bir hata ile karşılaştık"
+    }
+}

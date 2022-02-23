@@ -1,0 +1,31 @@
+.slogan {
+    max-width: 250px;
+    height: 50px;
+    background-color: #3f7183;
+    border: 1px solid #3f7183;
+    border-radius: 40px;
+    padding: 5px 10px;
+    justify-content: space-between;
+    small {
+        text-align: right;
+        margin-right: 10px;
+        overflow: hidden;
+        overflow-wrap: break-word;
+    }
+}
+
+.visit-channel {
+    width: 150px;
+    background-color: #fd8d2d;
+    border-color: #fd8d2d;
+}
+
+.translate-buttons {
+    .button-groups {
+        a {
+            background: #ededed;
+            color: #222;
+            border-color: #dbdada;
+        }
+    }
+}

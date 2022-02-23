@@ -1,0 +1,27 @@
+<div class="modal-header">
+    <h4 class="modal-title pull-left" translate>{{"Modal.Title"}}</h4>
+    <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="bsModalRef?.hide()">
+      <span aria-hidden="true" class="visually-hidden">&times;</span>
+    </button>
+  </div>
+<div class="modal-body">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="mb-3">
+            <label for="name" class="form-label" translate>{{"Modal.Name"}}</label>
+            <input type="text" class="form-control" id="name" formControlName="name">
+        </div>
+        <div class="mb-3">
+            <label for="surname" class="form-label" translate>{{"Modal.Surname"}}</label>
+            <input type="text" class="form-control" id="surname" formControlName="surname">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label" translate>{{"Modal.EMail"}}</label>
+            <input type="email" class="form-control" id="email" formControlName="email">
+        </div>
+        <div class="float-end">
+            <button type="submit" class="btn btn-success" [disabled]="form.invalid" translate>{{"Modal.SendButton"}}</button>
+            <button type="button" class="btn btn-primary m-2" (click)="decline()" translate>{{"Modal.RejectButton"}}</button>
+        </div>
+
+    </form>
+</div>
